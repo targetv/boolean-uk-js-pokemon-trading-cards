@@ -26,7 +26,7 @@ function createCard(poki) {
 
   img.setAttribute("class", "card--img");
 
-  img.setAttribute("src", poki.sprites.front_default);
+  img.setAttribute("src", poki.sprites.other["official-artwork"].front_default);
 
   img.setAttribute("width", "256");
 
